@@ -1,3 +1,15 @@
+"""trivia_app URL Configuration
+Description:
+name : name of the person who take quize
+time : To capture quiz time
+q1_a:question one response
+q2_a:question tw0 response
+
+
+
+
+"""
+
 from django.db import models
 from datetime import datetime
 

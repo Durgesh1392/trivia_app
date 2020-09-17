@@ -1,3 +1,14 @@
+"""
+Django views for trivia_app project.
+
+Description:
+index = for home page
+question_one = for question one page
+question_two = for question two page
+summary= for summary page
+
+
+"""
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 
