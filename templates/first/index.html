@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia App</title>
+</head>
+<body>
+    <h1>Trivia app</h1>
+    <h3>hey, whats your name</h3>
+    <form action="/index_submission/" method="POST">
+        {% csrf_token %}
+        <label for="name">enter your name:</label><br>
+        <input type="text" id="name" name="name" value="John"><br>
+       
+        <input type="submit" value="Submit">
+      </form> 
+      
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia App</title>
+</head>
+<body>
+    <h1>question two</h1>
+    <form action="question_two_submission" method="POST">
+        {% csrf_token %}
+        <label for="name">What are the colors in the Indian national flag?</label><br>
+        <input type="checkbox" id="vehicle1" name="white" value="Bike">
+        <label for="vehicle1"> white</label><br>
+        <input type="checkbox" id="vehicle2" name="orange" value="Car">
+        <label for="vehicle2"> orange</label><br>
+        <input type="checkbox" id="vehicle3" name="yellow" value="Boat">
+        <label for="vehicle3"> yellow</label><br>
+        <input type="checkbox" id="vehicle3" name="green" value="Boat">
+        <label for="vehicle3"> green</label><br>
+       
+       
+        <input type="submit" value="Next">
+      </form> 
+      
+</body>
+</html>

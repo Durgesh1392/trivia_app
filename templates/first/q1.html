@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia App</title>
+</head>
+<body>
+    <h1>question one</h1>
+    <form action="/question_one_submission/" method="POST">
+        {% csrf_token %}
+        <label for="name">Who is the best cricketer in the world?</label><br>
+        <input type="checkbox" id="vehicle1" name="sachin" value="Bike">
+        <label for="vehicle1"> sachin tendulkar</label><br>
+        <input type="checkbox" id="vehicle2" name="virat kohli" value="Car">
+        <label for="vehicle2"> virat kohli</label><br>
+        <input type="checkbox" id="vehicle3" name="adam gilchrist" value="Boat">
+        <label for="vehicle3"> adam gilchrist</label><br>
+        <input type="checkbox" id="vehicle3" name="jake kallis" value="Boat">
+        <label for="vehicle3"> jake kallis</label><br>
+       
+        <input type="submit" value="Next">
+      </form> 
+      
+</body>
+</html>
