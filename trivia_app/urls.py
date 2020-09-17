@@ -1,8 +1,8 @@
 """trivia_app URL Configuration
 
-The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/3.1/topics/http/urls/
-Examples:
+
+
+
 Function views
     1. Add an import:  from my_app import views
     2. Add a URL to urlpatterns:  path('', views.home, name='home')
@@ -24,8 +24,6 @@ urlpatterns = [
     path('question_two/',views.question_two, name='question_two'),
     path('index_submission/',views.index_submission, name='index_submission'),
     path('question_one_submission/',views.question_one_submission, name='question_one_submission'),
-   # url('name/',views.name),
-    # url('question_one',views.question_one),
-    url('question_two',views.question_two),
+  
     url('summary',views.summary),
 ]
